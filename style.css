@@ -1,0 +1,139 @@
+body{
+    margin: 0%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#background-pic{
+    width: 100%;
+}
+
+#background-pic > img{
+    width: 100%;
+    height: 450px;
+}
+
+#background-pic > p{
+    position: absolute;
+    z-index: 1;
+    font-size: 50px;
+    color: whitesmoke;
+    padding-top: 50px;
+    padding-left: 30%;
+    
+}
+
+#Bar{
+    position: absolute;
+    z-index: 1;
+    margin-top: 220px;
+    margin-left: 10%;
+    width: 300px;
+    height: 37px;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 3px;
+    font-size: 20px;
+
+}
+
+
+
+#Add-Button{
+    position: absolute;
+    z-index: 2;
+    margin-top: 221px;
+    width: 50px;
+    height: 44.5px;
+    margin-left: 74.6%;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    background-color:lightgrey;
+    cursor: pointer;
+}
+
+#Add-Button:hover{
+    background-color: skyblue;
+}
+
+
+
+
+#tasks{
+    position: absolute;
+    z-index: 1;
+    width: 65%;
+    min-height: 50%;
+    top: 48%;
+    left: 16.5%;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 20px 0px;
+}
+
+#tasks > ul{
+    list-style: none;
+    width: 100%;
+    border-radius: inherit;
+    padding: 0%;
+    margin: 0%;
+}
+
+#tasks > ul > li{
+    padding: 9px 9px;
+    font-size: 18px;
+    color: #21243D;
+    cursor: pointer;
+}
+
+#tasks > ul > li:hover{
+    background-color:skyblue;
+}
+
+#tasks > ul > li > i{
+    color: #21243D;
+}
+
+@media screen and (min-width:480px) {
+    #tasks{
+        position: absolute;
+        z-index: 1;
+        width: 40%;
+        min-height: 50%;
+        top: 37%;
+        left: 28%;
+        background-color: lightgrey;
+        box-shadow: 0px 0px 20px 0px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    #Bar{
+        position: absolute;
+        z-index: 1;
+        margin-top: 160px;
+        margin-left: 30%;
+        width: 530px;
+        height: 37px;
+        border-radius: 5px;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 3px;
+        font-size: 20px;
+    
+    }
+}
+
+
+@media screen and (min-width:480px) {
+    #Add-Button{
+        position: absolute;
+        z-index: 2;
+        margin-top: 160.5px;
+        width: 50px;
+        height: 46px;
+        margin-left: 61.83%;
+        font-family: 'Josefin Sans', sans-serif;
+        border: none;
+        background-color:lightgrey;
+        cursor: pointer;
+    }
+}
